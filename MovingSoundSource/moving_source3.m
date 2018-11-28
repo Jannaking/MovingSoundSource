@@ -7,7 +7,7 @@ fs=44100;
 % [x,fs]=wavread('audiomono2_test.wav');
 x=x';
  n1=length(x);
-%load('G:\Internship\10_June\CIPIC_database\subject_008\hrir_final');
+%load('hrir_final');
 load('hrir_final')
 n2=200;%length of Impulse response
 n=n1+n2-1;

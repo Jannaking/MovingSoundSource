@@ -3,7 +3,7 @@ function moving_src
 fs=44100;
 [x,fs]=wavread('audiomono2_test.wav');
 x=x';
-load('G:\Internship\10_June\CIPIC_database\subject_003\hrir_final');
+load('hrir_final');
 n1 = length(x);
 n2 = 200;
 M=n2;
